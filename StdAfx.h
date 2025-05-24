@@ -35,7 +35,6 @@
 #include <afxcmn.h>			// MFC support for Windows Common Controls
 #endif // _AFX_NO_AFXCMN_SUPPORT
 
-
 #pragma warning( disable : 4786 )
 
 //{{AFX_INSERT_LOCATION}}
@@ -47,10 +46,10 @@
 #include <afxcoll.h>
 
 // Edit the folder path to the type library files below based on where Alibre Design is installed on your computer
-#import "C:\Program Files\Alibre Design\Program\AlibreX_64.tlb"
-#import "C:\Program Files\Alibre Design\Program\AlibreAddOn_64.tlb" raw_interfaces_only
-
+#import "C:\Program Files\Alibre Design 28.0.4.28141\Program\AlibreX_64.tlb"
 using namespace AlibreX;
+#import "C:\Program Files\Alibre Design 28.0.4.28141\Program\AlibreAddOn_64.tlb" raw_interfaces_only
 using namespace AlibreAddOn;
+
 
 #endif // !defined(AFX_STDAFX_H__AC28B15C_A45C_41A5_AD1B_48306C64D8DB__INCLUDED_)

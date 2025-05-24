@@ -2,7 +2,7 @@
 #define __ADDONSUPPORT_H__
 
 
-#include <d3dx9.h>
+//#include <d3dx9.h>
 
 const int		nMAIN_MENUS_COUNT					= 2; 
 const int		nROOT_MENU_ID						= 100;
